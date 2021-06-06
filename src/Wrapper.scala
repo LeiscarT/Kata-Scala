@@ -1,5 +1,3 @@
-
-
 object Wrapper {
   
   def transform (text: String, column: Int) : String = 
@@ -17,11 +15,11 @@ object Wrapper {
   }
   
   
-  
   def main (Args: Array[String]){
     println(transform("hola",2))
      println(transform("hola",3))
       println(transform("hosdasdasdla",6))
-     
+    
+      
   }
 }
